@@ -18,15 +18,16 @@ body {
 
 #course-title {
   display: block;
-	background-color: #ddd; /*update color*/
+	background-color: var(--accent2-color); /*update color*/
 	padding: 1rem;
 	border: 1px solid rgb(0 0 0 / 10%); /*update color*/
 	font-size: 2rem;
 	text-align: center;
+	color: var(--primary-color);
 }
 
 nav {
-	background-color: #36454f; /*update color*/
+	background-color: var(--accent1-color); /*update color*/
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -35,7 +36,7 @@ nav ul {
 }
 nav a {
 	display: block;
-	color: #fff; /*update color*/
+	color: var(--secondery-color); /*update color*/
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -59,9 +60,16 @@ nav a:hover {
 }
 }
 
+main {
+	margin: 10px;
+}
+
+
 main h1{
   display: grid;
   text-align: center;
+	background-color: var(--primary-color);
+	color: var(--accent2-color);
 }
 
 main img {
@@ -71,4 +79,9 @@ main img {
 
 .card {
   display: grid;
+}
+
+footer {
+	background-color: var(--accent2-color);
+	color: var(--primary-color);
 }
