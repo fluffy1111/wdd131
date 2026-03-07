@@ -16,6 +16,10 @@ body {
   font-weight: 300;
 }
 
+header {
+	margin: 10px;
+}
+
 #course-title {
   display: block;
 	background-color: var(--accent2-color); /*update color*/
