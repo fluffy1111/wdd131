@@ -85,6 +85,9 @@ main img {
 }
 
 footer {
-	background-color: var(--accent2-color);
+	background-color: var(--secondery-color);
 	color: var(--primary-color);
+	display: block;
+	text-align: center;
+	font-size: 2rem;
 }
