@@ -1,16 +1,3 @@
-:root {
-  --primary-color: #023047;
-  --secondery-color: #fb8500;
-  --accent1-color: #219ebc;
-  --accent2-color: #ffb703;
-}
-
-* {
-  margin: 0px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
 .home {
 	font-weight: 700;
 	border-bottom: 1px solid var(--secondery-color);
