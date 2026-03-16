@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
     <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Temple Album</h1>
+      <a id="menu" herf="#"></a>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
+        <ul class="navigation">
+          <li><a href="#" class="active">Home</a></li>
           <li><a href="#">Old</a></li>
           <li><a href="#">New</a></li>
           <li><a href="#">Large</a></li>
@@ -24,43 +28,45 @@
       </nav>
     </header>
     <main>
-      <h1>Temples</h1>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 1</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 2</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 3</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 4</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 5</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 6</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 7</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 8</figcaption>
-      </figure>
-      <figure>
-        <img src="images/temple.webp" alt="Temple">
-        <figcaption>Temple 9</figcaption>
-      </figure>
+      <h2 class="home">Home</h2>
+      <div class="container home">
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 1</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 2</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 3</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 4</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 5</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 6</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 7</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 8</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple.webp" alt="Temple">
+          <figcaption>Temple 9</figcaption>
+        </figure>
+      </div>
     </main>
     <footer>
       <p>©<span id="currentyear">2026</span> Maxwell R Campbell, USA, Massachusets</p>
