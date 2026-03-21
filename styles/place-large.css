@@ -1,0 +1,15 @@
+@media screen and (min-width: 1000px) {
+  .sec {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr);
+    grid-gap: 10px;
+  }
+
+  .data {
+    grid-column: 1/ span 1;
+  }
+
+  .weather {
+    grid-column: 2/ span 2;
+  }
+}
