@@ -25,6 +25,10 @@ main {
   width: 100%;
 }
 
+.weather {
+  width: 100%;
+}
+
 h2 {
   background-color: black;
   color: white;
