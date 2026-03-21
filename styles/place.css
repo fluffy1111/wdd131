@@ -43,14 +43,6 @@ section {
   border: 1px solid black;
 }
 
-@media (min-width: 740px) {
-  picture img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-
 footer {
   text-align: center;
   background: black;
