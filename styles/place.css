@@ -1,0 +1,42 @@
+* {
+  margin: auto;
+  padding: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+header {
+  text-align: center;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+}
+
+.weather img {
+  padding: 0px;
+}
+
+section {
+  display: block;
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+}
