@@ -90,9 +90,7 @@ const temples = [
     imageUrl: 
     "https://churchofjesuschristtemples.org/assets/img/temples/vancouver-british-columbia-temple/vancouver-british-columbia-temple-13064-main.jpg"
   }
-];
-
-TempleCard ();
+]
 
 function TempleCard() {
   temples.forEach(temple => {
@@ -120,6 +118,8 @@ function TempleCard() {
     card.appendChild(img);
 
       //conect div class
-    document.querySelector(".container home").appendChild(card);
-  })
+    document.querySelector(".container").appendChild(card);
+  });
 }
+
+TempleCard ();
