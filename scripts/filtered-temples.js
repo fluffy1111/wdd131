@@ -111,7 +111,7 @@ function TempleCard() {
     img.setAttribute("alt", `${temple.templeName} Temple`);
     img.setAttribute("loading", "lazy");
 
-    card.appendChild(naem);
+    card.appendChild(name);
     card.appendChild(location);
     card.appendChild(dedicated);
     card.appendChild(area);
