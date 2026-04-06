@@ -1,16 +1,34 @@
 :root {
   --primary-color: #023047;
-  --secondery-color: #fb8500;
-  --accent1-color: #219ebc;
-  --accent2-color: #ffb703;
+  --secondery-color: #ffb703;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  text-align: center;
+  margin: 3rem;
 }
 
 img {
   width: 500px;
   height: auto;
+}
+
+h1 {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+}
+
+section {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+}
+
+footer {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
 }
