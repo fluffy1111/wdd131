@@ -1,0 +1,18 @@
+@media screen and (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+  }
+
+  .sec1 {
+    grid-column: 1;
+  }
+
+  .hero {
+    grid-column: 2;
+  }
+
+  .sec2 { 
+    grid-column: 3;
+  }
+}
