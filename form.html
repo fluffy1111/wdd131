@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 131 - form - Maxwell R Campbell</title>
+    <meta name="description" content="This is WDD 131 - form - Maxwell R Campbell, and this'll be th big project.">
+    <meta name="author" content="Maxwell R Campbell"></head>
+    <title>form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+  <body>
+    <header>
+      <h1>Product Review</h1>
+    </header>
+    <main>
+      <label for="product">Choose a Product</label>
+      <select name="product" id="product" required>
+        <option value="Select a Product" disabled>Select a Product ...</option>
+        <!--rest of the option in js-->
+      </select><br>
+      <!--star rating-->
+      <label>Overall raiting</label>
+      <div class="stars">
+        <input type="radio" id="fivestar" name="stars" value="5" required>
+        <label for="fivestar"></label>
+        <input type="radio" id="fourstar" name="stars" value="4" required>
+        <label for="fourstar"></label>
+        <input type="radio" id="threestar" name="stars" value="3" required>
+        <label for="threestar"></label>
+        <input type="radio" id="twostar" name="stars" value="2" required>
+        <label for="twostar"></label>
+        <input type="radio" id="onestar" name="stars" value="1" required>
+        <label for="onestar"></label>
+      </div>
+      <!--input time-->
+      <div class="date-time">
+        <form>
+          <label for="time">Input date</label>
+          <input type="date" id="time" name="time">
+        </form>
+      </div>
+      <!--multiple select-->
+      <div class="check">
+        <label for="box">checkbox</label>
+        <input type="checkbox" id="box" name="box" value="attribute">
+      </div>
+      <!--Reviow-->
+      <div class="rev">
+        <label for="reviow">Please, tell us what you think</label>
+        <input type="text" id="reviow" name="reviow">
+      </div>
+      <!--user name-->
+      <form class="name">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+      </form>
+      <!--submit-->
+      <div class="submit">
+        <label for="sub">Submit Here</label>
+        <input type="submit" id="sub" name="sub" vlaue="submit">
+      </div>
+    </main>
+    <footer>
+      <p>©<span id="currentyear">2026</span> Maxwell R Campbell, USA, Massachusets</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

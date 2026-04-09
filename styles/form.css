@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #023047;
+  --secondery-color: #ffb703;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+}
+
+main, footer {
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: var(--secondery-color);
+}
