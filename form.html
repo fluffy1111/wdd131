@@ -14,15 +14,14 @@
       <h1>Product Review</h1>
     </header>
     <main>
-      <label for="product">Choose a Product</label>
-      <select name="product" id="product" required>
-        <option value="Select a Product" disabled>Select a Product ...</option>
-        <!--rest of the option in js-->
-      </select><br>
-      <!--star rating-->
-      <label>Overall raiting</label>
-      <div class="stars">
-        <input type="radio" id="fivestar" name="stars" value="5" required>
+      <form>
+        <label for="product">Choose a Product</label>
+        <select name="product" id="product" required>
+          <option value="Select a Product" disabled>Select a Product ...</option>
+          <!--rest of the option in js-->
+        </select><br>
+        <!--star rating-->
+        <label>Overall raiting</label>
         <label for="fivestar"></label>
         <input type="radio" id="fourstar" name="stars" value="4" required>
         <label for="fourstar"></label>
@@ -32,36 +31,26 @@
         <label for="twostar"></label>
         <input type="radio" id="onestar" name="stars" value="1" required>
         <label for="onestar"></label>
-      </div>
-      <!--input time-->
-      <div class="date-time">
-        <form>
-          <label for="time">Input date</label>
-          <input type="date" id="time" name="time">
-        </form>
-      </div>
-      <!--multiple select-->
-      <div class="check">
+        <input type="radio" id="fivestar" name="stars" value="5" required><br>
+        <!--input time-->
+        <label for="time">Input date</label>
+        <input type="date" id="time" name="time"><br>
+          
+        <!--multiple select-->
         <label for="box">checkbox</label>
-        <input type="checkbox" id="box" name="box" value="attribute">
-      </div>
-      <!--Reviow-->
-      <div class="rev">
-        <label for="reviow">Please, tell us what you think</label>
-        <input type="text" id="reviow" name="reviow">
-      </div>
-      <!--user name-->
-      <form class="name">
+        <input type="checkbox" id="box" name="box" value="attribute"><br>
+        <!--Reviow-->
+        <label for="reviow">Please, tell us what you think</label><br>
+        <input type="text" id="reviow" name="reviow"><br>
+        <!--user name-->
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname">
-      </form>
-      <!--submit-->
-      <div class="submit">
-        <label for="sub">Submit Here</label>
+        <input type="text" id="lname" name="lname"><br>
+        <!--submit-->
+        <label for="sub">Submit Here</label><br>
         <input type="submit" id="sub" name="sub" vlaue="submit">
-      </div>
+      </form>
     </main>
     <footer>
       <p>©<span id="currentyear">2026</span> Maxwell R Campbell, USA, Massachusets</p>
