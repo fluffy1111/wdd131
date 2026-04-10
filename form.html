@@ -15,12 +15,12 @@
       <h1>Product Review</h1>
     </header>
     <main>
+      <select name="product" id="product" required selected>
+        <option value="Select a Product" disabled>Select a Product ...</option>
+        <!--rest of the option in js-->
+      </select><br>
+      <label for="product">Choose a Product</label>
       <form method="get" action="review.html">
-        <label for="product">Choose a Product</label>
-        <select name="product" id="product" required selected>
-          <option value="Select a Product" disabled>Select a Product ...</option>
-          <!--rest of the option in js-->
-        </select><br>
         <!--star rating-->
         <label>Overall raiting</label>
         <label for="fivestar"></label>
