@@ -15,9 +15,9 @@
       <h1>Product Review</h1>
     </header>
     <main>
-      <form>
+      <form method="get" action="review.html">
         <label for="product">Choose a Product</label>
-        <select name="product" id="product" required>
+        <select name="product" id="product" required selected>
           <option value="Select a Product" disabled>Select a Product ...</option>
           <!--rest of the option in js-->
         </select><br>
@@ -38,11 +38,17 @@
         <input type="date" id="time" name="time"><br>
           
         <!--multiple select-->
-        <label for="box">checkbox</label>
-        <input type="checkbox" id="box" name="box" value="attribute"><br>
+        <label for="box1">checkbox 1</label>
+        <input type="checkbox" id="box1" name="box1" value="attribute"><br>
+        <label for="box2">checkbox 2</label>
+        <input type="checkbox" id="box2" name="box2" value="attribute"><br>
+        <label for="box3">checkbox 3</label>
+        <input type="checkbox" id="box3" name="box3" value="attribute"><br>
+        <label for="box4">checkbox 4</label>
+        <input type="checkbox" id="box4" name="box4" value="attribute"><br>
         <!--Reviow-->
-        <label for="reviow">Please, tell us what you think</label><br>
-        <input type="text" id="reviow" name="reviow"><br>
+        <label for="reviow">Feedback</label><br>
+        <textarea type="text" id="reviow" name="reviow">Please, tell us what you think</textarea><br>
         <!--user name-->
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname"><br>
