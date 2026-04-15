@@ -1,8 +1,6 @@
 :root {
   --primary-color: #023047;
-  --secondery-color: #fb8500;
-  --accent1-color: #219ebc;
-  --accent2-color: #ffb703;
+  --secondery-color: #ffb703;
 }
 
 * {
@@ -21,7 +19,7 @@ header {
 
 #course-title {
   display: block;
-	background-color: var(--accent2-color); /*update color*/
+	background-color: var(--secondery-color); /*update color*/
 	padding: 1rem;
 	border: 1px solid rgb(0 0 0 / 10%); /*update color*/
 	font-size: 2rem;
@@ -30,7 +28,7 @@ header {
 }
 
 nav {
-	background-color: var(--accent1-color); /*update color*/
+	background-color: var(--secondery-colorr); /*update color*/
 	margin: 0 auto;
 	max-width: 800px;
 }
