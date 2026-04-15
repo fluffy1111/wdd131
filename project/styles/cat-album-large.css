@@ -1,0 +1,58 @@
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 1 100%;
+	}
+
+	.home {
+		font-weight: 700;
+		border-bottom: 1px solid var(--secondery-color);
+		margin-bottom: 1rem;
+	}
+
+	h1 {
+		padding: 1rem;
+		background-color: var(--primary-color);
+		text-align: center;
+		color: var(--secondery-color);
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	section {
+		margin: 1rem auto;
+		max-width: 960px;
+		padding: 0.5rem;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-gap: 25px;
+		place-items: center;
+	}
+
+	figure {
+		background-color: var(--accent1-color);
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		margin: 0.5rem;
+	}
+
+	figcaption {
+		font-size: smaller;
+	}
+}

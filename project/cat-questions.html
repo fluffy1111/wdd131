@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 131 - form - Maxwell R Campbell</title>
+    <meta name="description" content="This is WDD 131 - form - Maxwell R Campbell, and this'll be th big project.">
+    <meta name="author" content="Maxwell R Campbell">
+    <link rel="stylesheet" href="styles/cat-questions.css">
+    <script src="scripts/cat-album.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>cat Review</h1>
+      <a id="menu"></a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="cat-questions.html">CatQ</a></li>
+          <li><a href="owner.html">About Owner</a></li>
+          <li><a href="cat-album.html">random Cats</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="get" action="review.html">
+        <label for="product">Choose a cat</label>
+        <select name="product" id="product" required>
+          <option value="" selected>Select a cat ...</option>
+          <!--rest of the option in js-->
+        </select><br>
+          <!--star rating-->
+        <label>Overall raiting</label>
+        <label for="fivestar"></label>
+        <input type="radio" id="fourstar" name="stars" value="4" required>
+        <label for="fourstar"></label>
+        <input type="radio" id="threestar" name="stars" value="3" required>
+        <label for="threestar"></label>
+        <input type="radio" id="twostar" name="stars" value="2" required>
+        <label for="twostar"></label>
+        <input type="radio" id="onestar" name="stars" value="1" required>
+        <label for="onestar"></label>
+        <input type="radio" id="fivestar" name="stars" value="5" required><br>
+        <!--input time-->
+        <label for="time">Input date</label>
+        <input type="date" id="time" name="time"><br>
+          
+        <!--multiple select-->
+        <label>Qwalities you enjoy</label><br>
+        <label for="box1">fluffy</label>
+        <input type="checkbox" id="box1" name="box1" value="attribute"><br>
+        <label for="box2">sillky</label>
+        <input type="checkbox" id="box2" name="box2" value="attribute"><br>
+        <label for="box3">jumpy</label>
+        <input type="checkbox" id="box3" name="box3" value="attribute"><br>
+        <label for="box4">whiny</label>
+        <input type="checkbox" id="box4" name="box4" value="attribute"><br>
+        <!--Reviow-->
+        <label for="reviow">Feedback</label><br>
+        <textarea id="reviow" name="reviow">Please, tell us what you think</textarea><br>
+        <!--user name-->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <!--submit-->
+        <label for="sub">Submit Here</label><br>
+        <input type="submit" id="sub" name="sub">
+      </form>
+    </main>
+    <footer>
+      <p>©<span id="currentyear">2026</span> Maxwell R Campbell, USA, Massachusets</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

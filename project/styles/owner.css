@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #023047;
+  --secondery-color: #fb8500;
+  --accent1-color: #219ebc;
+  --accent2-color: #ffb703;
+}
+
+* {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 300;
+}
+
+header {
+	margin: 10px;
+}
+
+#course-title {
+  display: block;
+	background-color: var(--accent2-color); /*update color*/
+	padding: 1rem;
+	border: 1px solid rgb(0 0 0 / 10%); /*update color*/
+	font-size: 2rem;
+	text-align: center;
+	color: var(--primary-color);
+}
+
+nav {
+	background-color: var(--accent1-color); /*update color*/
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+  justify-content: space-around;
+}
+nav a {
+	display: block;
+	color: var(--secondery-color); /*update color*/
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: overline;
+  border: 1px solid black;
+}
+
+/* larger/wider views **************************/
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 0 auto; /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
+		in this example, the items will not shrink but can grow to fill the space at natural content width*/
+
+}
+}
+
+main {
+	margin: 10px;
+}
+
+
+main h1{
+  display: grid;
+  text-align: center;
+	background-color: var(--primary-color);
+	color: var(--accent2-color);
+}
+
+main img {
+  height: 300px;
+  width: auto;
+}
+
+.card {
+  display: grid;
+}
+
+footer {
+	background-color: var(--secondery-color);
+	color: var(--primary-color);
+	display: block;
+	text-align: center;
+	font-size: 2rem;
+}
