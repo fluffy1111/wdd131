@@ -118,6 +118,9 @@ function KittyCard() {
     card.appendChild(img);
 
       //conect div class
+      //
+      /*
+      lin*/
     document.querySelector(".container").appendChild(card);
   });
 };
